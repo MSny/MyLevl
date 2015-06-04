@@ -19,6 +19,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'oauth2'
+gem 'octokit'
 gem 'github_api'
 gem 'sdoc', group: :doc
 gem 'httparty'

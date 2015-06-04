@@ -239,6 +239,8 @@ GEM
       multi_json (~> 1.3)
       multi_xml (~> 0.5)
       rack (~> 1.2)
+    octokit (3.8.0)
+      sawyer (~> 0.6.0, >= 0.5.3)
     pg (0.18.2)
     pry (0.10.1)
       coderay (~> 1.1.0)
@@ -292,6 +294,9 @@ GEM
       sprockets (>= 2.8, < 4.0)
       sprockets-rails (>= 2.0, < 4.0)
       tilt (~> 1.1)
+    sawyer (0.6.0)
+      addressable (~> 2.3.5)
+      faraday (~> 0.8, < 0.10)
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
@@ -348,6 +353,7 @@ DEPENDENCIES
   mini_magick
   minitest-reporters
   oauth2
+  octokit
   pg
   pry
   puma

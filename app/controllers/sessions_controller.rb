@@ -18,9 +18,9 @@ def new
       name:         current_user_api_data['name'],
       email:        current_user_api_data['email']
     })
-
+    binding.pry
     # and then redirect to that user's home page
-    redirect_to user_path(user)
+    redirect_to user
   end
 
   def destroy
